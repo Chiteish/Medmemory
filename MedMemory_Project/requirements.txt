@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-python-multipart
-openai
-langchain
-pytesseract
-pillow
-sqlalchemy
