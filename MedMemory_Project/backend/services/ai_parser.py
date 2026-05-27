@@ -1,0 +1,1 @@
+def parse_report(text): return {}

@@ -1,0 +1,1 @@
+def analyze(records): return {}

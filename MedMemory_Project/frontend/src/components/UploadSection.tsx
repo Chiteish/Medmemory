@@ -1,0 +1,1 @@
+export default function UploadSection(){ return <div>Upload</div> }
