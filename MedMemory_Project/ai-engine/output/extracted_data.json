@@ -1,0 +1,71 @@
+{
+    "patient_name": "Ravi Kumar",
+    "patient_id": "CD123456",
+    "date": "10/04/2025",
+    "tests": [
+        {
+            "test_name": "Fasting Blood Sugar",
+            "result": "125",
+            "unit": "mg/dL",
+            "reference_range": "70 - 100"
+        },
+        {
+            "test_name": "HbAt1c",
+            "result": "6.8",
+            "unit": "%",
+            "reference_range": "40-56"
+        },
+        {
+            "test_name": "Total Cholesterol",
+            "result": "220",
+            "unit": "mg/dL",
+            "reference_range": "< 200"
+        },
+        {
+            "test_name": "HDL Cholesterol",
+            "result": "45",
+            "unit": "mg/dL",
+            "reference_range": "40 - 60"
+        },
+        {
+            "test_name": "LDL Cholesterol",
+            "result": "140",
+            "unit": "mg/dL",
+            "reference_range": "< 100"
+        },
+        {
+            "test_name": "Triglycerides",
+            "result": "180",
+            "unit": "mg/dL",
+            "reference_range": "< 150"
+        },
+        {
+            "test_name": "Serum Creatinine",
+            "result": "1.1",
+            "unit": "mg/dL",
+            "reference_range": "0.7 - 1.3"
+        },
+        {
+            "test_name": "Hemoglobin",
+            "result": "13.2",
+            "unit": "g/dL",
+            "reference_range": "13.0 - 17.0"
+        }
+    ],
+    "medicines": [
+        {
+            "medicine_name": "Metformin",
+            "dosage": "500 mg",
+            "frequency": "Twice Daily (After Meals)"
+        },
+        {
+            "medicine_name": "Atorvastatin",
+            "dosage": "10 mg",
+            "frequency": "Once Daily (At Night)"
+        }
+    ],
+    "diagnosis": [
+        "Type 2 Diabetes Mellitus",
+        "Hypercholesterolemia"
+    ]
+}

@@ -1,0 +1,32 @@
+# MedMemory AI Engine - Python Dependencies
+# Updated for multi-format document support (June 2026)
+
+# Core API Framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+
+# AI & Language Models
+groq>=0.4.0
+openai>=1.0.0
+langchain>=0.1.0
+
+# Database & Vector Store
+sqlalchemy>=2.0.0
+chromadb>=0.4.0
+
+# Document Processing
+pytesseract>=0.3.10
+PyMuPDF>=1.23.0  # For PDF text extraction
+pillow>=10.0.0   # For image processing
+pdf2image>=1.16.0  # Alternative PDF processing
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Optional: For production deployment
+gunicorn>=21.0.0
+
+# Optional: For advanced features
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
