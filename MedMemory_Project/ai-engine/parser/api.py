@@ -1,5 +1,4 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
-from fastapi.responses import JSONResponse
 import sys
 import os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -20,15 +19,6 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Maximum file size: 50MB
 MAX_FILE_SIZE = 50 * 1024 * 1024
-
-# Allowed MIME types
-ALLOWED_MIME_TYPES = {
-    'application/pdf': '.pdf',
-    'text/plain': '.txt',
-    'image/png': '.png',
-    'image/jpeg': '.jpg',
-    'image/jpg': '.jpg',
-}
 
 
 def get_file_extension(filename: str) -> str:
