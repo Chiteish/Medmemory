@@ -1,1 +1,0 @@
-export default function DoctorSummary(){ return <div>Summary</div> }
